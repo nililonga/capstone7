@@ -1,0 +1,7 @@
+c:\users\noeil\source\repos\LabNumber8StudentInformation\LabNumber8StudentInformation\obj\Debug\LabNumber8StudentInformation.csprojResolveAssemblyReference.cache
+c:\users\noeil\source\repos\LabNumber8StudentInformation\LabNumber8StudentInformation\obj\Debug\LabNumber8StudentInformation.csproj.CoreCompileInputs.cache
+c:\users\noeil\source\repos\LabNumber8StudentInformation\LabNumber8StudentInformation\bin\Debug\LabNumber8StudentInformation.exe.config
+c:\users\noeil\source\repos\LabNumber8StudentInformation\LabNumber8StudentInformation\bin\Debug\LabNumber8StudentInformation.exe
+c:\users\noeil\source\repos\LabNumber8StudentInformation\LabNumber8StudentInformation\bin\Debug\LabNumber8StudentInformation.pdb
+c:\users\noeil\source\repos\LabNumber8StudentInformation\LabNumber8StudentInformation\obj\Debug\LabNumber8StudentInformation.exe
+c:\users\noeil\source\repos\LabNumber8StudentInformation\LabNumber8StudentInformation\obj\Debug\LabNumber8StudentInformation.pdb

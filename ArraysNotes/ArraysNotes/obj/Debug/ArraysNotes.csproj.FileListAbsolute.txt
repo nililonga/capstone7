@@ -1,0 +1,7 @@
+C:\Users\noeil\source\repos\ArraysNotes\ArraysNotes\bin\Debug\ArraysNotes.exe.config
+C:\Users\noeil\source\repos\ArraysNotes\ArraysNotes\bin\Debug\ArraysNotes.exe
+C:\Users\noeil\source\repos\ArraysNotes\ArraysNotes\bin\Debug\ArraysNotes.pdb
+C:\Users\noeil\source\repos\ArraysNotes\ArraysNotes\obj\Debug\ArraysNotes.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\ArraysNotes\ArraysNotes\obj\Debug\ArraysNotes.csproj.CoreCompileInputs.cache
+C:\Users\noeil\source\repos\ArraysNotes\ArraysNotes\obj\Debug\ArraysNotes.exe
+C:\Users\noeil\source\repos\ArraysNotes\ArraysNotes\obj\Debug\ArraysNotes.pdb

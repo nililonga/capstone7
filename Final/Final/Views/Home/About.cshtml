@@ -1,0 +1,35 @@
+﻿
+@using Final.Controllers;
+@{
+    ViewBag.Title = "About";
+    
+    
+}
+
+<div>
+    <form action="/Home/Result" onclick="return checkAll()">
+        <input type="number" id="input1" name="input1" value="input1" placeholder="Enter first number" /> <br />
+        <input type="number" id="input2" name="input2" value="input2" placeholder="Enter second number" /> <br />
+
+        <input type="submit" value="Add" />
+
+    </form>
+    input1 + input2 = @ViewBag.Message
+</div>
+<script>
+    
+    function checkAll() {
+        var input1 = document.forms["form"]["input"].value;
+        var input2 = document.forms["form"]["input"].value;
+        console.log(input1);
+        console.log(input2);
+        if (input1.length < 1) {
+            alert("must be between 1 and 1000, try again");
+            return false;
+        }
+        else if (input2.length > 1000) {
+            alert("must be between 1 and 1000, try again");
+            return false;
+        }
+    }
+</script>

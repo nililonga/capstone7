@@ -1,0 +1,23 @@
+﻿
+using CarApp.Models;
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Car List</h1>
+
+<table>
+    <tr>
+        <th>Make</th>
+        <th>Plate(Model)</th>
+        <th>Year</th>
+    </tr>
+    @foreach (var c in ViewBag.carlist)
+    {
+    <tr>
+        <td>@c.Make</td>
+        <td>@c.Plate</td>
+        <td>@c.Year</td>
+    </tr>
+    }
+</table>

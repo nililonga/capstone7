@@ -1,0 +1,7 @@
+C:\Users\noeil\source\repos\Lab18Part2\Lab18Part2\bin\Debug\Lab18Part2.exe.config
+C:\Users\noeil\source\repos\Lab18Part2\Lab18Part2\bin\Debug\Lab18Part2.exe
+C:\Users\noeil\source\repos\Lab18Part2\Lab18Part2\bin\Debug\Lab18Part2.pdb
+C:\Users\noeil\source\repos\Lab18Part2\Lab18Part2\obj\Debug\Lab18Part2.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\Lab18Part2\Lab18Part2\obj\Debug\Lab18Part2.csproj.CoreCompileInputs.cache
+C:\Users\noeil\source\repos\Lab18Part2\Lab18Part2\obj\Debug\Lab18Part2.exe
+C:\Users\noeil\source\repos\Lab18Part2\Lab18Part2\obj\Debug\Lab18Part2.pdb

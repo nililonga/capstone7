@@ -1,0 +1,7 @@
+C:\Users\noeil\source\repos\ArrayListNotes52\ArrayListNotes52\bin\Debug\ArrayListNotes52.exe.config
+C:\Users\noeil\source\repos\ArrayListNotes52\ArrayListNotes52\bin\Debug\ArrayListNotes52.exe
+C:\Users\noeil\source\repos\ArrayListNotes52\ArrayListNotes52\bin\Debug\ArrayListNotes52.pdb
+C:\Users\noeil\source\repos\ArrayListNotes52\ArrayListNotes52\obj\Debug\ArrayListNotes52.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\ArrayListNotes52\ArrayListNotes52\obj\Debug\ArrayListNotes52.csproj.CoreCompileInputs.cache
+C:\Users\noeil\source\repos\ArrayListNotes52\ArrayListNotes52\obj\Debug\ArrayListNotes52.exe
+C:\Users\noeil\source\repos\ArrayListNotes52\ArrayListNotes52\obj\Debug\ArrayListNotes52.pdb

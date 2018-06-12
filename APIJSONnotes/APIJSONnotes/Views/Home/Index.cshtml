@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@if (ViewBag.Error != null)
+{
+    <div>
+        <h2>Error: Status @ViewBag.Error</h2>
+        @ViewBag.ErrorDescription
+        <br />
+        @ViewBag.Data
+    </div>
+}
+else
+{
+    <h2>Weather Forecast</h2>
+    <div>
+        @ViewBag.Zone <br />
+        @ViewBag.Date<br />
+        @ViewBag.Place<br />
+        @ViewBag.Wind
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th width="20%">Time</th>
+                <th width="10%">Temp</th>
+                <th width="10%">Forecast</th>
+                <th width="50%">Description</th>
+                <th width="10%">Rain</th>
+            </tr>
+            @for (int i = 0; i < ViewBag.Times.Count; i++)
+        {
+
+
+            <tr>
+                <td>@ViewBag.Times[i]</td>
+                <td>@ViewBag.Temps[i]</td>
+                <td>
+                    <img src="@ViewBag.Icons[i]"
+                         height="43" width="43" />
+                </td>
+                <td>
+                    @ViewBag.Descs[i]
+                    @*<a href="#" onclick="alert('@ViewBag.Texts[i]')">Show more</a>*@
+
+                    <a href="#" id="link-@i"
+                       onclick="toggleMoreInfo('@i')">More Info</a>
+                    <span id="text-@i" style="display:none">
+                        @ViewBag.Texts[i]
+                    </span>
+                </td>
+                <td>@ViewBag.Rains[i]</td>
+
+            </tr>
+
+    }
+        </table>
+    </div>
+}
+<script>function toggleMoreInfo(fieldNumber) {
+        if (document.getElementById('text-' + fieldNumber).style.display
+                == "none") {
+            document.getElementById('text-' + fieldNumber).style.display = 'block';
+            document.getElementById('link-' + fieldNumber).innerHTML = 'Hide';
+        } else {
+            document.getElementById('text-' + fieldNumber).style.display = 'none';
+            document.getElementById('link-' + fieldNumber).innerHTML = 'Show more';
+        }
+    }</script>

@@ -1,0 +1,6 @@
+Rushaidat	Kamel	kamel@grandcircus.co	2
+Guenther	Peter	peter@grandcircus.co	2
+Solomon	Antonella	antonella@grandcircus.co	2
+Wolverton	David	david@grandcircus.co	1
+Hire	Adam	adam@grandcircus.co	1
+Snover	Jacob	jacob@grandcircus.co	0

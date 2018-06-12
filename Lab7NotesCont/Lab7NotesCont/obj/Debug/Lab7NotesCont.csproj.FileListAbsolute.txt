@@ -1,0 +1,7 @@
+C:\Users\noeil\source\repos\Lab7NotesCont\Lab7NotesCont\bin\Debug\Lab7NotesCont.exe.config
+C:\Users\noeil\source\repos\Lab7NotesCont\Lab7NotesCont\bin\Debug\Lab7NotesCont.exe
+C:\Users\noeil\source\repos\Lab7NotesCont\Lab7NotesCont\bin\Debug\Lab7NotesCont.pdb
+C:\Users\noeil\source\repos\Lab7NotesCont\Lab7NotesCont\obj\Debug\Lab7NotesCont.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\Lab7NotesCont\Lab7NotesCont\obj\Debug\Lab7NotesCont.csproj.CoreCompileInputs.cache
+C:\Users\noeil\source\repos\Lab7NotesCont\Lab7NotesCont\obj\Debug\Lab7NotesCont.exe
+C:\Users\noeil\source\repos\Lab7NotesCont\Lab7NotesCont\obj\Debug\Lab7NotesCont.pdb

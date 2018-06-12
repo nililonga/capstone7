@@ -1,0 +1,18 @@
+﻿@using System.Security.Principal;
+@using System.Security.Claims;
+@using Microsoft.AspNet.Identity;
+@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+Is user logged in? @Request.IsAuthenticated <br />
+
+<h3>@User.Identity.Name</h3>
+Is the user an admin? @User.IsInRole("admin") <br />
+@User.Identity.AuthenticationType<br />
+@User.Identity.ToString();
+
+@User.Identity.GetUserId();

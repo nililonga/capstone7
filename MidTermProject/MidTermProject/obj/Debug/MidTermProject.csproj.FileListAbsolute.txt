@@ -1,0 +1,7 @@
+C:\Users\noeil\source\repos\MidTermProject\MidTermProject\obj\Debug\MidTermProject.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\MidTermProject\MidTermProject\obj\Debug\MidTermProject.csproj.CoreCompileInputs.cache
+C:\Users\noeil\source\repos\MidTermProject\MidTermProject\bin\Debug\MidTermProject.exe.config
+C:\Users\noeil\source\repos\MidTermProject\MidTermProject\bin\Debug\MidTermProject.exe
+C:\Users\noeil\source\repos\MidTermProject\MidTermProject\bin\Debug\MidTermProject.pdb
+C:\Users\noeil\source\repos\MidTermProject\MidTermProject\obj\Debug\MidTermProject.exe
+C:\Users\noeil\source\repos\MidTermProject\MidTermProject\obj\Debug\MidTermProject.pdb

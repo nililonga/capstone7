@@ -1,0 +1,2 @@
+C:\Users\noeil\source\repos\Lab4TableOfPowers\Lab4TableOfPowers\obj\Debug\Lab4TableOfPowers.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\Lab4TableOfPowers\Lab4TableOfPowers\obj\Debug\Lab4TableOfPowers.csproj.CoreCompileInputs.cache

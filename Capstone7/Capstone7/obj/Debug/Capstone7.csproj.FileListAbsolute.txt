@@ -1,0 +1,2 @@
+c:\users\noeil\source\repos\Capstone7\Capstone7\obj\Debug\Capstone7.csprojResolveAssemblyReference.cache
+c:\users\noeil\source\repos\Capstone7\Capstone7\obj\Debug\Capstone7.csproj.CoreCompileInputs.cache

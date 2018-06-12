@@ -1,0 +1,7 @@
+C:\Users\noeil\source\repos\Lab13NotesPart1\Lab13NotesPart1\bin\Debug\Lab13NotesPart1.exe.config
+C:\Users\noeil\source\repos\Lab13NotesPart1\Lab13NotesPart1\bin\Debug\Lab13NotesPart1.exe
+C:\Users\noeil\source\repos\Lab13NotesPart1\Lab13NotesPart1\bin\Debug\Lab13NotesPart1.pdb
+C:\Users\noeil\source\repos\Lab13NotesPart1\Lab13NotesPart1\obj\Debug\Lab13NotesPart1.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\Lab13NotesPart1\Lab13NotesPart1\obj\Debug\Lab13NotesPart1.csproj.CoreCompileInputs.cache
+C:\Users\noeil\source\repos\Lab13NotesPart1\Lab13NotesPart1\obj\Debug\Lab13NotesPart1.exe
+C:\Users\noeil\source\repos\Lab13NotesPart1\Lab13NotesPart1\obj\Debug\Lab13NotesPart1.pdb

@@ -1,0 +1,7 @@
+c:\users\noeil\source\repos\ConsoleApp13\ConsoleApp13\bin\Debug\ConsoleApp13.exe.config
+c:\users\noeil\source\repos\ConsoleApp13\ConsoleApp13\bin\Debug\ConsoleApp13.exe
+c:\users\noeil\source\repos\ConsoleApp13\ConsoleApp13\bin\Debug\ConsoleApp13.pdb
+c:\users\noeil\source\repos\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.csprojResolveAssemblyReference.cache
+c:\users\noeil\source\repos\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.csproj.CoreCompileInputs.cache
+c:\users\noeil\source\repos\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.exe
+c:\users\noeil\source\repos\ConsoleApp13\ConsoleApp13\obj\Debug\ConsoleApp13.pdb

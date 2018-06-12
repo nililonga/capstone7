@@ -1,0 +1,7 @@
+C:\Users\noeil\source\repos\FridayCapstoneMorningNotes\FridayCapstoneMorningNotes\bin\Debug\FridayCapstoneMorningNotes.exe.config
+C:\Users\noeil\source\repos\FridayCapstoneMorningNotes\FridayCapstoneMorningNotes\bin\Debug\FridayCapstoneMorningNotes.exe
+C:\Users\noeil\source\repos\FridayCapstoneMorningNotes\FridayCapstoneMorningNotes\bin\Debug\FridayCapstoneMorningNotes.pdb
+C:\Users\noeil\source\repos\FridayCapstoneMorningNotes\FridayCapstoneMorningNotes\obj\Debug\FridayCapstoneMorningNotes.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\FridayCapstoneMorningNotes\FridayCapstoneMorningNotes\obj\Debug\FridayCapstoneMorningNotes.csproj.CoreCompileInputs.cache
+C:\Users\noeil\source\repos\FridayCapstoneMorningNotes\FridayCapstoneMorningNotes\obj\Debug\FridayCapstoneMorningNotes.exe
+C:\Users\noeil\source\repos\FridayCapstoneMorningNotes\FridayCapstoneMorningNotes\obj\Debug\FridayCapstoneMorningNotes.pdb

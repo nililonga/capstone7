@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Library2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="book">
+    <Key>
+      <PropertyRef Name="Ranking" />
+    </Key>
+    <Property Name="Ranking" Type="Int32" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Author" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Sales" Type="Int32" />
+    <Property Name="Imprint" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Publisher" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="YearPublished" Type="Int32" />
+    <Property Name="Genre" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int32" Nullable="false" />
+    <Property Name="Borrower" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Borrower1" Relationship="Library2Model.FK_books_Borrowers" FromRole="book" ToRole="Borrower" />
+    <NavigationProperty Name="Status1" Relationship="Library2Model.FK_books_Statuses1" FromRole="book" ToRole="Status" />
+  </EntityType>
+  <EntityType Name="Borrower">
+    <Key>
+      <PropertyRef Name="BorrowerID" />
+    </Key>
+    <Property Name="BorrowerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BorrowerFirstName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BorrowerLastName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BorrowerEmail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="books" Relationship="Library2Model.FK_books_Borrowers" FromRole="Borrower" ToRole="book" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status1" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="books" Relationship="Library2Model.FK_books_Statuses1" FromRole="Status" ToRole="book" />
+  </EntityType>
+  <EntityContainer Name="Library2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="books" EntityType="Self.book" />
+    <EntitySet Name="Borrowers" EntityType="Self.Borrower" />
+    <EntitySet Name="Statuses" EntityType="Self.Status" />
+    <AssociationSet Name="FK_books_Borrowers" Association="Library2Model.FK_books_Borrowers">
+      <End Role="Borrower" EntitySet="Borrowers" />
+      <End Role="book" EntitySet="books" />
+    </AssociationSet>
+    <AssociationSet Name="FK_books_Statuses1" Association="Library2Model.FK_books_Statuses1">
+      <End Role="Status" EntitySet="Statuses" />
+      <End Role="book" EntitySet="books" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_books_Borrowers">
+    <End Type="Library2Model.Borrower" Role="Borrower" Multiplicity="1" />
+    <End Type="Library2Model.book" Role="book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Borrower">
+        <PropertyRef Name="BorrowerID" />
+      </Principal>
+      <Dependent Role="book">
+        <PropertyRef Name="Borrower" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_books_Statuses1">
+    <End Type="Library2Model.Status" Role="Status" Multiplicity="1" />
+    <End Type="Library2Model.book" Role="book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="book">
+        <PropertyRef Name="Status" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

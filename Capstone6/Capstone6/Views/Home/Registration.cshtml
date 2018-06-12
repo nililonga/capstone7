@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Registration";
+}
+
+<h2>Registration</h2>
+<form action="/Home/TaskList" name="form" method="get" onsubmit="return checkAll()">
+    <input type="text" name="input1" placeholder="Name" /> <br />
+    <input type="email" name="input2" placeholder="Email" /> <br />
+
+    <input type="submit" value="Log In" /> 
+       </form>
+
+<script>
+
+    function checkAll() {
+        var input1 = document.forms["form"]["input1"].value;
+        var input2 = document.forms["form"]["input2"].value;
+        alert(input1);
+        alert(input2);
+        if (input1.length < 6) {
+            alert("bad username, try again");
+            return false;
+        }
+        else if (input2.length < 10) {
+            alert("bad username, try again");
+            return false;
+        }                
+    }
+</script>

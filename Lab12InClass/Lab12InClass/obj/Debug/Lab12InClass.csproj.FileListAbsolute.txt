@@ -1,0 +1,7 @@
+c:\users\noeil\source\repos\Lab12InClass\Lab12InClass\obj\Debug\Lab12InClass.csprojResolveAssemblyReference.cache
+c:\users\noeil\source\repos\Lab12InClass\Lab12InClass\obj\Debug\Lab12InClass.csproj.CoreCompileInputs.cache
+c:\users\noeil\source\repos\Lab12InClass\Lab12InClass\bin\Debug\Lab12InClass.exe.config
+c:\users\noeil\source\repos\Lab12InClass\Lab12InClass\bin\Debug\Lab12InClass.exe
+c:\users\noeil\source\repos\Lab12InClass\Lab12InClass\bin\Debug\Lab12InClass.pdb
+c:\users\noeil\source\repos\Lab12InClass\Lab12InClass\obj\Debug\Lab12InClass.exe
+c:\users\noeil\source\repos\Lab12InClass\Lab12InClass\obj\Debug\Lab12InClass.pdb

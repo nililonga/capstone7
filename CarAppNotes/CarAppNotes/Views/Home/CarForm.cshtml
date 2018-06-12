@@ -1,0 +1,29 @@
+﻿@model CarAppNotes.Models.Car
+@{
+    ViewBag.Title = "CarForm";
+}
+<h2>Create Car</h2>
+<form action="/Home/Create" method="post" onsubmit="return CheckYear()"/>,l
+@Html.ValidationSummary()
+@using (Html.BeginForm("Create", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.EditorFor(model => model.Make)<br />
+    @Html.EditorFor(model => model.Plate)<br />
+    @Html.EditorFor(model => model.Year)<br />
+
+    <input type="submit" value="Create" />
+}
+
+<script>
+    function CheckYear()
+    {
+        var year = document.getElementById("Year").text
+        if (year < 1890 || year > 2020) {
+            alert("year is outside of the valid range")
+            return false;
+        }
+        return true;
+    }
+</script>

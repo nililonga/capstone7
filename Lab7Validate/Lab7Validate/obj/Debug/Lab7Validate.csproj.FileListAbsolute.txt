@@ -1,0 +1,7 @@
+c:\users\noeil\source\repos\Lab7Validate\Lab7Validate\bin\Debug\Lab7Validate.exe.config
+c:\users\noeil\source\repos\Lab7Validate\Lab7Validate\bin\Debug\Lab7Validate.exe
+c:\users\noeil\source\repos\Lab7Validate\Lab7Validate\bin\Debug\Lab7Validate.pdb
+c:\users\noeil\source\repos\Lab7Validate\Lab7Validate\obj\Debug\Lab7Validate.csprojResolveAssemblyReference.cache
+c:\users\noeil\source\repos\Lab7Validate\Lab7Validate\obj\Debug\Lab7Validate.csproj.CoreCompileInputs.cache
+c:\users\noeil\source\repos\Lab7Validate\Lab7Validate\obj\Debug\Lab7Validate.exe
+c:\users\noeil\source\repos\Lab7Validate\Lab7Validate\obj\Debug\Lab7Validate.pdb

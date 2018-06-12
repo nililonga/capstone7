@@ -1,0 +1,28 @@
+﻿@using Lab26xx.Models;
+@{
+    ViewBag.Title = "Menu";
+}
+
+<h2>Menu</h2>
+
+<table>
+
+    <tr>
+        <th><a>Name</a></th>
+        <th><a>Price</a></th>
+        <th><a>Quantity</a></th>
+    </tr>
+    @foreach (Item x in ViewBag.Items)
+    {
+        <tr>
+            <td>@x.Item1</td>
+            <td>@x.Price</td>
+            <td>@x.Quantity</td>
+        </tr>
+        <td>
+            <a href="~/Home/Add?id=@x.ID"
+               class="btn btn-primary">Add to Bag</a>
+        </td>
+
+    }
+</table>

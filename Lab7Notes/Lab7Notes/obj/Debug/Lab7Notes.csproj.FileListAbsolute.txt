@@ -1,0 +1,2 @@
+c:\users\noeil\source\repos\Lab7Notes\Lab7Notes\obj\Debug\Lab7Notes.csprojResolveAssemblyReference.cache
+c:\users\noeil\source\repos\Lab7Notes\Lab7Notes\obj\Debug\Lab7Notes.csproj.CoreCompileInputs.cache

@@ -1,0 +1,7 @@
+C:\Users\noeil\source\repos\Capstone2Notes\Capstone2Notes\bin\Debug\Capstone2Notes.exe.config
+C:\Users\noeil\source\repos\Capstone2Notes\Capstone2Notes\bin\Debug\Capstone2Notes.exe
+C:\Users\noeil\source\repos\Capstone2Notes\Capstone2Notes\bin\Debug\Capstone2Notes.pdb
+C:\Users\noeil\source\repos\Capstone2Notes\Capstone2Notes\obj\Debug\Capstone2Notes.csprojResolveAssemblyReference.cache
+C:\Users\noeil\source\repos\Capstone2Notes\Capstone2Notes\obj\Debug\Capstone2Notes.csproj.CoreCompileInputs.cache
+C:\Users\noeil\source\repos\Capstone2Notes\Capstone2Notes\obj\Debug\Capstone2Notes.exe
+C:\Users\noeil\source\repos\Capstone2Notes\Capstone2Notes\obj\Debug\Capstone2Notes.pdb
